@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/wallpaper.jpg");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    
+}
+.game {
+    /* display: none; */
+    
+}
+
+.content {
+    padding: 40px;
+}
+
+.question {
+    text-align: left;
+}
+.choices {
+    gap: 10px;
+}
+
+.submit {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.result {
+    display: none;
+    padding: 20px;
+    text-align: center
+}
+
+.result h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.score {
+    font-size: 30px;
+    font-weight: 900;
+}
+.play {
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: greenyellow;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+}
